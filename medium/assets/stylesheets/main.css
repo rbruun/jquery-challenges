@@ -1,0 +1,75 @@
+    .hide {
+        display: none;
+    }
+
+    .left {
+        position: absolute;
+        top: 350px;
+    }
+
+    .right {
+        position: absolute;
+        top: 350px;
+        right: 350px;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    h1 {
+        margin-bottom: 5px;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .maindiv {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .reset {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #team1mascot {
+        position: absolute;
+        top: 120px;
+    }
+
+    #team2mascot {
+        position: relative;
+        top: -40px;
+        right: -50px;
+    }
+
+    html {
+        background: url("../images/hockeyStick.png") no-repeat center center fixed;
+        background-size: cover;
+        font-family: sans-serif;
+    }
+
+    button {
+        height: 30px;
+        width: 120px;
+        border-radius: 10px;
+        border: none;
+        font-size: 15px;
+        color: white;
+    }
+
+    #reset {
+        background-color: seagreen;
+        position: relative;
+        top: -20px;
+    }
+
+    #teamone-shoot,
+    #teamtwo-shoot {
+        background-color: black;
+        position: relative;
+        top: 15px;
+    }
