@@ -18,6 +18,16 @@
   var saveButton = $('#save-button');
   var loadButton = $('#load-button');
 
+    // get the text from the screen and save it to local storage
+    saveButton.click(function(){
+        localStorage.setItem("localStuff", getText());
+    })
+    
+        // get the text from the screen and save it to local storage
+    loadButton.click(function(){
+        setText(localStorage.getItem("localStuff"));
+    })
+    
   /**
    * Gets the text from the element for you
    * @return {String}
